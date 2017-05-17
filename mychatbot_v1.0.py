@@ -35,7 +35,7 @@ if int(decide)==2:
         inputer = raw_input("")
         for i in predic:
             a = fuzz.partial_ratio(inputer,i)
-            if a > 80:
+            if a > 90:
                 index = predic.index(i)
                 print 'Bot :' + ' '+ (answers [index])
                 call()
